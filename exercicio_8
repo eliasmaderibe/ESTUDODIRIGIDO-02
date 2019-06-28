@@ -1,0 +1,11 @@
+import math
+
+valor = [5,5,5,5,5,5,5,5,5,5]
+
+qntd = 10
+
+soma_do_valor_de_cada_cd= sum(valor)
+
+media = soma_do_valor_de_cada_cd / qntd
+
+print("A média gasta em cada CD É:  R$",media)
