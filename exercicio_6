@@ -1,0 +1,16 @@
+# 6. F.U.P. para imprimir todo o número primo em um intervalo.
+iniciar = int(input("Digite aqui um valor para iniciar: "))
+final = int(input("Verificar numeros primos ate: "))
+mult=0
+
+for count in range(iniciar,final):
+    if (final % count == 0):
+        print("Múltiplo de",count)
+        mult += 1
+
+
+if(mult==0):
+    print("É primo")
+
+else:
+    print("Tem",mult," múltiplos acima de 2 e abaixo de")
